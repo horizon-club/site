@@ -1,0 +1,10 @@
+baseurl = "http://replace-this-with-your-hugo-site.com/"
+languageCode = "en-us"
+title = "Горизонт"
+theme = "hyde"
+
+[params]
+themeColor = "theme-base-0f"
+description = "Муниципальное бюджетное учреждение «Спортивный Клуб Горизонт» города Магнитогорска"
+locale = "ru-ru"
+
