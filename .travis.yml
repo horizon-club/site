@@ -16,4 +16,4 @@ script:
 
 after_success:
   - cd public
-  - find -type f -exec curl -u $FTP_USER:$FTP_PASSWORD --ftp-create-dirs -T {} ftp://mbu-gkt.myjino.ru/{} \;
+  - find -type f | xargs -I {} curl -v -s -u $FTP_USER:$FTP_PASSWORD --ftp-create-dirs -T {} ftp://mbu-gkt.myjino.ru/{}
