@@ -31,9 +31,10 @@
  * Update the foundational and global aspects of the page.
  */
 
-html {
+html, button, input, select, textarea, .pure-g [class *= "pure-u"]{
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
 }
+
 @media (min-width: 48em) {
   html {
     font-size: 16px;
@@ -247,4 +248,16 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .content a,
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
+}
+
+
+.section-description h3 {
+    margin-top: 0;
+}
+
+.section-description {
+    padding-left: 10px;
+}
+.section-description dl {
+    padding-bottom: 10px;
 }
