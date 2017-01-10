@@ -15,7 +15,7 @@ install:
 
 
 script:
-  - hugo
+  - cd $TRAVIS_BUILD_DIR && hugo
 
 after_success:
   - cd public
