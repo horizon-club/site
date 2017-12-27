@@ -6,7 +6,7 @@
     <div class="content container">
 <div class="posts">
 
-      {{ range where .Data.Pages "Section" "news" }}
+      {{ range first 5 (where .Data.Pages "Section" "news") }}
   <div class="post">
     <h1 class="post-title">
       <a href="{{ .Permalink }}">
@@ -25,6 +25,7 @@
   {{ end }}
   </div>
   {{ end }}
+  <a href="/news">Все новости</a>
 </div>
 </div>
 
