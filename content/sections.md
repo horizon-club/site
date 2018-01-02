@@ -63,6 +63,61 @@ weight = 10
     </div>
 </div>
 
+<div class="pure-g">
+    <div class="pure-u-1-3">
+        <img src="/images/alpinizm.jpg">
+    </div>
+    <div class="pure-u-2-3">
+        <div class="section-description">
+        <h3>Альпинизм</h3>
+        <dl>
+            <dt>Возраст поступления</dt>
+            <dd>с 16 лет</dd>
+            <dt>Место проведения занятий</dt>
+            <dd>Галиуллина 3, МГТУ</dd>
+            <dt>Инструктор</dt>
+            <dd>Агата Мавринская</dd>
+        </dl>
+        </div>
+    </div>
+</div>
+<div class="pure-g">
+    <div class="pure-u-1-3">
+        <img src="/images/orienteering.jpg">
+    </div>
+    <div class="pure-u-2-3">
+        <div class="section-description">
+        <h3>Спортивное ориентирование</h3>
+        <dl>
+            <dt>Возраст поступления</dt>
+            <dd>с 7 лет</dd>
+            <dt>Место проведения занятий</dt>
+            <dd>Галиуллина 3</dd>
+            <dt>Инструктора</dt>
+            <dd>Людмила Новоселова, Татьяна Афанасьева</dd>
+        </dl>
+        </div>
+    </div>
+</div>
+<div class="pure-g">
+    <div class="pure-u-1-3">
+        <img src="/images/adaptive_sport.jpg">
+    </div>
+    <div class="pure-u-2-3">
+        <div class="section-description">
+        <h3>Адаптивный спорт (спортивный туризм для лиц с ПОДА)</h3>
+        <dl>
+            <dt>Возраст поступления</dt>
+            <dd>с 18 лет</dd>
+            <dt>Место проведения занятий</dt>
+            <dd>Галиуллина 3</dd>
+            <dt>Инструктора</dt>
+            <dd>Наталья Беликова</dd>
+        </dl>
+        </div>
+    </div>
+</div>
+
 Прием на занятия осуществляется на основании письменного заявления граждан о приеме в Учреждение, а в случае если они несовершеннолетние, то по письменному заявлению их законных представителей, (далее - заявление о приеме).
 
 В заявлении о приеме должны быть  указаны следующие сведения:
