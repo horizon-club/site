@@ -1,6 +1,5 @@
 +++
 title = "Первенство города по спортивному туризму"
-menu = "main"
 Categories = ["Development","GoLang"]
 Tags = ["Development","golang"]
 Description = "Первенство города по спортивному туризму на пешеходных дистанциях в закрытых помещениях"
