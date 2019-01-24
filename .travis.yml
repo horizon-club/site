@@ -11,4 +11,4 @@ script:
 
 after_success:
   - cd public
-  - lftp -u $FTP_USER,$FTP_PASSWORD mbu-gkt.myjino.ru -e 'mirror -c -e -R . ~ ; exit'
+  - lftp -u $FTP_USER,$FTP_PASSWORD mbu-gkt.myjino.ru -e 'set ftp:ssl-allow no; mirror -c -e -R . ~ ; exit'
