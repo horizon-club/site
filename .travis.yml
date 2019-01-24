@@ -4,7 +4,8 @@ env:
     - secure: "Eo5ZD6Ym3DaGFzoHDcLLuZvs/edBB704MlZMRrZ8Nz813vNHfrvU8WqudrhN3YA2T1RPBFYeDqmnmBehs3kte9nHmT9XwjpSCNH3BqsY0kAb6H+2Dx6KlSXvmOkJoZHh/Zew/AZhF4r0Ic48SnQ/VwUEaK6T5bY57WN79xr/dHQNgLYQl7QH0yKr/TCGti2HvLHd3D2Nan3B0cA661yU6RVJYYku6f8awFDjggxw5JIV+zT1q13RYewPFoy2w/KkSeb5thTkJdI0bArLaaZE+XPCCu9Sky/vsAQDCT6oKCxMuysE+bVBVTfGMk1O9Z1T4fMInoNElvKHcl2UHLGKR0OO25T7hIyO4MGTBo8tDsNFbZXXPkhRb1TjyInc/ueeNf5pD5Y6lllSHXdk7/TPe7xsROrhAuvZdHNWgr9zzioTAFtH8hLyekyovdsUq5KoFHANhz1jJIyX8/UVEDfiTsofPNTH5Crr9HteIGpYXr3NWdnSAbTH8hAW/1SSbe+4r9MiGjhTRZSi220bWmoVebf7drTCIvEDPnqHdmX5+lqkRSkqA6tiL0V691y+J+oWeKRYWqKJ5FvgAF2w+c1A5NsJxV4TYq0BQ0pTLk2A2ZTgk8n5x5pizjA9VsUcz7i/K63pX+5pgtIhOmTXQ3yBMF0KVj5QJ7IL5fB8r889ACk="
 
 before_install:
-      - sudo apt-get install -y lftp
+  - sudo apt-get install -y lftp
+
 script:
   - ./hugo
 
